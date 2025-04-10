@@ -9,7 +9,9 @@
 ***
 
 🐨Github项目地址：[weibo-comment-crawler](https://github.com/1dyer/weibo-comment-crawler)
+
 🐒CSDN项目地址：[基于Request爬取微博所有评论（一二级评论、楼中楼）和用户信息（IP地址、简介、粉丝牌、微博认证、年龄、星座、学历、公司、注册日期、点赞、关注、评论、转发数等）附带源码与教程](https://blog.csdn.net/onedyer/article/details/147125454?spm=1001.2014.3001.5501)
+
 🐼个人博客教程地址：[基于Request的微博评论爬取教程](https://blog.ldyer.top/2025/04/10/%E5%BE%AE%E5%8D%9A%E8%AF%84%E8%AE%BA%E7%88%AC%E5%8F%96/)
 ***
 相关爬虫🦊：[用于爬取Bilibili（B站）视频评论的爬虫🕷️，支持爬取一级评论及二级回复😊，并将数据导出为CSV文件。通过输入视频的BV号，脚本会自动获取视频信息并抓取相关评论，包含用户基本信息、评论内容、IP属地、头像、会员、等级等字段😉😉。](https://github.com/1dyer/bilibili-comment-crawler)
