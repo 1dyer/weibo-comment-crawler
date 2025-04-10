@@ -6,6 +6,15 @@
 
 数据以结构化CSV格式存储，包含评论内容、点赞数、用户粉丝等级等字段，适用于舆情分析、用户行为研究等场景。通过Cookie认证机制保障请求合法性，内置0.5秒/次的请求间隔防止反爬，为社交媒体数据挖掘提供高效合规的解决方案。
 
+***
+
+🐨Github项目地址：[weibo-comment-crawler](https://github.com/1dyer/weibo-comment-crawler)
+🐒CSDN项目地址：[基于Request爬取微博所有评论（一二级评论、楼中楼）和用户信息（IP地址、简介、粉丝牌、微博认证、年龄、星座、学历、公司、注册日期、点赞、关注、评论、转发数等）附带源码与教程](https://blog.csdn.net/onedyer/article/details/147125454?spm=1001.2014.3001.5501)
+🐼个人博客教程地址：[基于Request的微博评论爬取教程](https://blog.ldyer.top/2025/04/10/%E5%BE%AE%E5%8D%9A%E8%AF%84%E8%AE%BA%E7%88%AC%E5%8F%96/)
+***
+相关爬虫🦊：[用于爬取Bilibili（B站）视频评论的爬虫🕷️，支持爬取一级评论及二级回复😊，并将数据导出为CSV文件。通过输入视频的BV号，脚本会自动获取视频信息并抓取相关评论，包含用户基本信息、评论内容、IP属地、头像、会员、等级等字段😉😉。](https://github.com/1dyer/bilibili-comment-crawler)
+***
+
 # 2. 样例展示👊🏻
 ![alt text](weibo_comment/image.png)
 <font size=6>精简版 **（Min）**</font>
