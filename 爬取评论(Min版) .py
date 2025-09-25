@@ -1,7 +1,3 @@
-# https://weibo.com/ajax/statuses/buildComments?flow=1&is_reload=1&id=5153820120452372&is_show_bulletin=2&is_mix=1&fetch_level=1&max_id=0&count=20&uid=2397417584&locale=zh-CN
-# https://weibo.com/ajax/statuses/buildComments?flow=1&is_reload=1&id=5153820120452372&is_show_bulletin=2&is_mix=1&fetch_level=1&max_id=5153822667443438&count=20&uid=2397417584&locale=zh-CN
-
-
 import requests
 import json
 from datetime import datetime
@@ -18,6 +14,8 @@ def add_count():
 def get_header():
     with open("weibo_cookie.json",'r') as f:
         header=json.loads(f.read())
+        # 加上Referer
+        header['referer']='https://weibo.com/'
     return header
 
 # 提取url中的关键词

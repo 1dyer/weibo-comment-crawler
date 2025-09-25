@@ -131,6 +131,8 @@ def add_count():
 def get_header():
     with open("weibo_cookie.json",'r') as f:
         header=json.loads(f.read())
+        # 加上Referer
+        header['referer']='https://weibo.com/'
     return header
 
 # 提取url中的关键词
@@ -377,6 +379,8 @@ def add_count():
 def get_header():
     with open("weibo_cookie.json",'r') as f:
         header=json.loads(f.read())
+        # 加上Referer
+        header['referer']='https://weibo.com/'
     return header
 
 # 提取url中的关键词
