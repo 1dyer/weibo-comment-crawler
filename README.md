@@ -1,3 +1,5 @@
+# 现已推出Edge微博评论爬取浏览器扩展，无需代码环境就可以直接在浏览器中爬取微博评论了：[weibo-comments-extension](https://github.com/1dyer/weibo-comments-extension)
+
 # 1. 项目简介✍🏻
 
 本项目👀是基于**Python**开发的微博评论采集工具，支持深度获取微博评论数据及多维用户画像。通过逆向解析**微博URL**参数，实现短链到博文ID的精准转换，采用递归算法抓取多级嵌套评论（含二级回复）。
